@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+.navbar a {
+    color: white !important; 
+}
+
+header {
+    background: url("../img/header-background.jpg") no-repeat;
+    background-size: cover;
+    background-position: top
+    ;
+    color: white;
+}
+
+header .row {
+    padding: 45px 30px !important;
+}
+
+.icon-arrow a {
+    color: #7dc22b;
+}
+
+.fa-angle-right {
+    color: #198754;
+    /* font-size: 25px; */
+}
+
+.service-list {
+    list-style: square;
+}
+
+#basic {
+    background: url("../img/process-background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#basic hr {
+    width: 10%;
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+.btn-outline-white {
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.basic .fa-angle-right {
+    color: white;
+    font-size: 25px;
+}
+
+.card {
+    padding: 15px;
+}
+
+.card-img-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #7dc22b;
+    padding: 15px;    
+}
+
+.card-img-top  i {
+    color: white;
+    font-size: 35px;
+}
+
+.img-div {
+    width: 450px;
+    height: 450px;   
+    margin: 0 auto;
+}
+
+.img-div img {
+    width: 100%;
+    border-radius: 50%;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/26497c3de0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KSHO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">
+              Lets Talk
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="form-section" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="John Doe"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="tel" class="form-label">Telephone</label>
+              <input
+                type="text"
+                class="form-control"
+                id="tel"
+                placeholder="+2348080000001"
+              />
+            </div>
+
+            <div class="form-check">
+              <p>Gender</p>
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="male"
+              />
+              <label class="form-check-label" for="male"> Male </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gender"
+                id="female"
+              />
+              <label class="form-check-label" for="female"> Female </label>
+            </div>
+
+            <div class="form-check mt-3">
+              <p class="ms-0">Hobbies</p>
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="bulma"
+              />
+              <label class="form-check-label" for="bulma"> Bulma </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="bootstrap"
+              />
+              <label class="form-check-label" for="bootstrap">
+                Bootstrap
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="tailwind"
+              />
+              <label class="form-check-label" for="tailwind">
+                Tailwind CSS
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="foundation"
+              />
+              <label class="form-check-label" for="foundation">
+                Foundation
+              </label>
+            </div>
+            <div class="mb-3">
+              <label for="comments" class="form-label">Comments</label>
+              <textarea class="form-control" id="comments" rows="3"></textarea>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Submit</button>
+              <!-- <button class="btn btn-primary" type="button">Button</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
